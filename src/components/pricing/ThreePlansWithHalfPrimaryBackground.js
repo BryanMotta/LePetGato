@@ -41,7 +41,7 @@ const PlanHeader = styled.div`
       }
     }
     .oldPrice {
-      ${tw`text-gray-500 text-lg line-through hidden sm:block`}
+      ${tw`text-gray-500 text-lg  hidden sm:block`}
     }
   }
   .description {
@@ -69,55 +69,43 @@ const ActionButton = styled(PrimaryButtonBase)`
 const WhiteBackgroundOverlay = tw.div`absolute inset-x-0 bottom-0 h-1/6 lg:h-1/3 bg-white z-0`;
 
 export default ({
-  subheading = "",
-  heading = "Affordable Pricing",
-  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+  subheading = "Preços",
+  heading = "Preços acessíveis",
+  description = "Pensar em algo para falar da diferença de cada raça e justificar o preço diferente",
   plans = null,
-  primaryButtonText = "Create Server"
+  primaryButtonText = "Contato"
 }) => {
+
   const defaultPlans = [
     {
-      name: "Personal",
-      price: ["$9", ".99/month"],
-      oldPrice: "$11.99",
+      name: "Banho p",
+      price: ["R$30", ".00"],
       description: "Perfect for when you want to host your personal blog or a hobby side project.",
-      features: ["2 Core Xeon CPU", "1 GB RAM", "30 GB SSD", "1 TB Transfer", "99.9% Uptime"],
+      features: ["Shampoo", "Laço", "Escovação"],
+      oldPrice: "A partir de",
       url: "https://google.com"
     },
     {
-      name: "Business",
-      price: ["$15", ".99/month"],
-      oldPrice: "$19.99",
+      name: "Tosa higiênica p",
+      price: ["R$45", ".00"],
       description: "Perfect for hosting blogs with lots of traffic or heavy development projects",
       features: [
-        "4 Core Xeon CPU",
-        "2 GB RAM",
-        "100 GB SSD",
-        "3 TB Transfer",
-        "99.9% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management"
+        "Shampoo", "Laço", "Escovação","Aparação dos pelos"
       ],
       url: "https://google.com",
-      featured: "Most Popular"
+      oldPrice: "A partir de",
+      featured: "Mais popular"
     },
     {
-      name: "Enterprise",
-      price: ["$25", ".99/month"],
-      oldPrice: "$29.99",
+      name: "Tosa g",
+      price: ["R$100", ".00"],
       description: "Perfect for hosting production websites & API services with high traffic load",
       features: [
-        "8 Core Xeon CPU",
-        "8 GB RAM",
-        "300 GB SSD",
-        "Unlimited Transfer",
-        "99.99% Uptime",
-        "Free Domain & SSL",
-        "Free DNS Management",
-        "Free Offsite Backup"
+        "Shampoo", "Laço", "Escovação","Tosa completa"
       ],
-      url: "https://google.com"
-    }
+      url: "https://google.com",
+      oldPrice: "A partir de",
+    },
   ];
 
   if (!plans) plans = defaultPlans;

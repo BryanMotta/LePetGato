@@ -29,36 +29,36 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 
 export default ({
   subheading = "",
-  heading = "Frequently Asked Questions",
+  heading = "Perguntas frequentes.",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   faqs = [
     {
-      question: "Is lunch provided free of cost ?",
+      question: "Posso levar meu gato para dar banho?",
       answer:
-        "Yes, it is, if you have a membership with us. Otherwise it is charged as per the menu. Some limits do apply as to how much items can be included in your lunch. This limit is enough for any one person and merely exists to discourage abusal of the system."
+        "Nossa equipe ira ficar em pedaços, mas sim voce pode."
     },
     {
-      question: "Do you have 2 Bedroom suites ?",
+      question: "O que é cachorro pequeno ?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+        "Cachorros com peso medio entre 1 e 5 Kg."
     },
     {
-      question: "Are Wi-Fi costs included in the price ?",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    },
-    {
-      question: "Where can I reach you for support ?",
+      question: "O que é cachorro medio ?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      question: "What kind of SLA Guarantee do you provide ? ",
+      question: "Outra duvida ?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
     },
     {
-      question: "Where are the servers located ?",
+      question: "Outra duvida ?",
+      answer:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+    },
+    {
+      question: "Outra duvida ?",
       answer:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     }

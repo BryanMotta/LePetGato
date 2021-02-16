@@ -18,7 +18,7 @@ const StyledHeader = styled(Header)`
 const PrimaryLink = tw(PrimaryLinkBase)`rounded-full`
 const Container = styled.div`
   ${tw`relative -mx-8 -mt-8 bg-center bg-cover h-screen min-h-144`}
-  background-image: url("https://images.unsplash.com/photo-1536300007881-7e482242baa5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80");
+  background-image: url("https://caocidadao.com.br/wp-content/uploads/2018/05/5-coisas-sobre-cachorros-filhotes.jpg");
 `;
 
 const OpacityOverlay = tw.div`z-10 absolute inset-0 bg-black opacity-75`;
@@ -65,9 +65,9 @@ export default () => {
         <StyledHeader links={navLinks} />
         <Content>
           <Heading>
-              Book Music & Comedy Events
+              Já conhece o melhor banho & tosa?
               <br />
-              anywhere in New York
+              Veja pq escolher o Le Pet Gato.
           </Heading>
           <PrimaryAction>Search Events Near Me</PrimaryAction>
         </Content>

@@ -32,19 +32,19 @@ export default ({textOnLeft = false}) => {
   //Change the statistics variable as you like, add or delete objects
   const statistics = [
     {
-      key: "Countries",
+      key: "Destaque 1",
       value: "192",
     },
     {
-      key: "Hotels",
+      key: "Destaque 2",
       value: "479",
     },
     {
-      key: "Rooms",
+      key: "Destaque 3",
       value: "2093",
     },
     {
-      key: "Workers",
+      key: "Destaque 4",
       value: "10347",
     }
   ]
@@ -53,11 +53,11 @@ export default ({textOnLeft = false}) => {
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image imageSrc="https://images.unsplash.com/photo-1582564286939-400a311013a2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80" />
+          <Image imageSrc="https://staticpetz.stoom.com.br/fotos/1544546387752.jpg" />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
-            <Heading>We have the best service.</Heading>
+            <Heading>Conheça nossa loja</Heading>
             <Description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</Description>
             <Statistics>
               {statistics.map((statistic, index) => (
