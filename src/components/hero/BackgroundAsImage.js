@@ -90,7 +90,7 @@ export default () => {
             <Heading>
               <span>Contrate o melhor </span>
               <br />
-              <SlantedBackground>Tosador.</SlantedBackground>
+              <SlantedBackground>Banho & Tosa.</SlantedBackground>
             </Heading>
             <PrimaryAction>Leias as avaliações</PrimaryAction>
           </LeftColumn>
