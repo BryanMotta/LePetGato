@@ -92,7 +92,7 @@ export default () => {
               <br />
               <SlantedBackground>Banho & Tosa.</SlantedBackground>
             </Heading>
-            <PrimaryAction>Leias as avaliações</PrimaryAction>
+            <PrimaryAction>Leia as avaliações</PrimaryAction>
           </LeftColumn>
           {/*<RightColumn>*/}
           {/*  <StyledResponsiveVideoEmbed*/}
