@@ -39,9 +39,9 @@ const Answer = motion.custom(tw.dd`pointer-events-none text-sm sm:text-base lead
 
 export default ({
   subheading = "",
-  heading = "Questions",
+  heading = "Dúvidas",
   description = "Here are some frequently asked questions about our hotels from our loving customers. Should you have any other questions, feel free to reach out via the contact form below.",
-  imageSrc = "https://images.unsplash.com/photo-1579427421635-a0015b804b2e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1024&q=80",
+  imageSrc = "https://itpetblog.com.br/wp-content/uploads/2018/10/banho-shampoo-de-gente.jpg",
   imageContain = false,
   imageShadow = true,
   faqs = null

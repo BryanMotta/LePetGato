@@ -68,7 +68,7 @@ export default () => {
         Localização
       </NavLink>
       <NavLink href="#">
-        Preços
+        Serviços
       </NavLink>
     </NavLinks>,
     <NavLinks key={2}>
@@ -85,7 +85,7 @@ export default () => {
         <StyledHeader links={navLinks} />
         <TwoColumn>
           <LeftColumn>
-            <Notification>Estamos agora em Cajuru-Curitiba.
+            <Notification>Estamos agora em Curitiba-PR.
             </Notification>
             <Heading>
               <span>Contrate o melhor </span>

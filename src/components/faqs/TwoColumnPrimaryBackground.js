@@ -29,7 +29,7 @@ const Answer = tw(motion.div)`hidden text-sm font-normal mt-4 text-gray-300`;
 
 export default ({
   subheading = "",
-  heading = "Perguntas frequentes.",
+  heading = "Dúvidas frequentes.",
   description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   faqs = [
     {

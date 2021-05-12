@@ -32,9 +32,9 @@ const SubmitButton = tw(PrimaryButtonBase)`inline-block lg:ml-6 mt-6 lg:mt-0`
 
 export default ({
   subheading = "Contato",
-  heading = <>Se sinta livre para nos <span tw="text-primary-500">contatar</span><wbr/> a qualquer momento.</>,
-  description = "Telefone:(41) 99550-4021",
-  submitButtonText = "Contact Me",
+  heading = <>Feel free to <span tw="text-primary-500">get in touch</span><wbr/> with us.</>,
+  description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+  submitButtonText = "WhatsApp",
   formAction = "#",
   formMethod = "get",
   textOnLeft = true,
@@ -45,17 +45,16 @@ export default ({
     <Container>
       <TwoColumn>
         <ImageColumn>
-          <Image imageSrc={EmailIllustrationSrc} />
+          <Image imageSrc={"https://blog.petiko.com.br/wp-content/uploads/2015/11/coisas-n%C3%A3o-podem-faltar-telefone-vet.jpg"} />
         </ImageColumn>
         <TextColumn textOnLeft={textOnLeft}>
           <TextContent>
             {subheading && <Subheading>{subheading}</Subheading>}
             <Heading>{heading}</Heading>
             <Description>{description}</Description>
-            {/*<Form action={formAction} method={formMethod}>*/}
-            {/*  <Input type="email" name="email" placeholder="Your Email Address" />*/}
-            {/*  <SubmitButton type="submit">{submitButtonText}</SubmitButton>*/}
-            {/*</Form>*/}
+            <Form action={formAction} method={formMethod}>
+              <SubmitButton type="submit">{submitButtonText}</SubmitButton>
+            </Form>
           </TextContent>
         </TextColumn>
       </TwoColumn>
